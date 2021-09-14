@@ -1,0 +1,128 @@
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	/* list-style: none; */
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+
+/* ========================================= */
+body {
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: 'PT Sans', sans-serif;
+  background-color: rgb(248, 252, 255);
+}
+
+.link {
+  color: #29abe2;
+}
+
+h2 a {
+  color: black;
+  cursor: auto;
+}
+
+.spider {
+  width: 600px;
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-top: 20px;
+}
+
+.subtitle {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.item {
+  margin: 5px 0;
+  padding-left: 20px;
+  margin-left: 60px;
+}
+
+.item a {
+  color: #29abe2;
+}
+
+.info {
+  margin: 20px 0;
+}
+
+.info>p {
+  margin-top: 20px;
+}
+
+/* ========================== */
+.content {
+  margin-top: 40px;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.text {
+  margin-top: 20px;
+}
+
+.background {
+  background: #a2e8f9;
+  padding: 20px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.line {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 15px;
+
+}
+
+footer {
+  margin: 60px 0;
+  color:white;
+  background: #637074;
+  padding: 20px;
+}
+
+footer div p {
+  margin: 5px 0;
+}
